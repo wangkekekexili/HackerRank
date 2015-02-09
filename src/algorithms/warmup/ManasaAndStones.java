@@ -17,6 +17,10 @@ public class ManasaAndStones {
 			int numbers = sc.nextInt()-1;
 			int a = sc.nextInt();
 			int b = sc.nextInt();
+			if (a==b) {
+				System.out.println(a*numbers);
+				continue;
+			}
 			if (b<a) {
 				int temp = b;
 				b = a;
